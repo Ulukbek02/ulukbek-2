@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic-ext');
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  width: 100%;
+}
+.space{
+  color: #fff;
+}
+
+.nav-link{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.nav-item{
+  margin-right: 2vw;
+}
+#my-nav{
+  margin: 0;
+  padding: 0;
+}
+.nav-contact{
+  width: 160px;
+position: absolute;
+margin-top: 65px;
+margin-left: 190px;
+font-size: 18px;
+line-height: 19px;
+font-style: normal;
+font-weight: bold;
+}
+.nav-contact__contact{
+}
+
+.content{
+  width: 100%;
+  height:1280px;
+  max-height: 1280px;
+}
+
+.content__title{
+position:absolute;
+width: 30vw;
+height: 252px;
+left: 162px;
+top: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 2rem;
+line-height: 47px;
+color: #000000;
+}
+.content__bg{
+  width: 100%;
+  min-width: 500px;
+  height: 1280px;
+  position: relative;
+  background: url("Rectangle8.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.content__wrapper{
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.form{
+  position: absolute;
+  z-index: 2;
+  width: 350px;
+  height: 550px;
+  background: #5B5B5B;
+  margin-left: 60vw;
+  top:20;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #313131;
+}
+.form__title{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #fff;
+padding: 25px;
+padding-bottom: 5px;
+text-transform: uppercase;
+text-align: center;
+}
+.form__input{
+  width: 270px;
+  height: 45px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+textarea{
+  width: 270px;
+  margin: 25px;
+  margin-top: 0px;
+  margin-left: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.form_submit{
+  width: 270px;
+  height: 40px;
+  margin-top: 0px;
+  left: 20px;
+  background: #FA141F;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 40px;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+}
+.info{
+  display: inline-flex;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+}
+.iconvector{
+  position: absolute;
+  display: flex;
+  width: 50px;
+  height: 90px;
+  margin-top: -38px;
+  background: url("Vector.svg") no-repeat;
+}
+.info__title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.info__text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.product{
+  width: 100%;
+  height: 1200px;
+  background-color: #fff;
+}
+.product__description{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  margin-top: 125px;
+}
+.product__title{
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 120px;
+  color: #000000;
+
+}
+.item{
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.item__title{
+
+}
+.item__title-blue{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #0380ED;
+  margin-top: 35px;
+}
+.item__title-green{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #729F00;
+    margin-top: 35px;
+}
+.item__title-red{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #FA141F;
+    margin-top: 35px;
+}
+.item__text{
+  margin-top: 30px;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 19px;
+color: #000000;
+}
+.btn{
+  width: 320px;
+  height: 50px;
+  background: #FF0000;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 100px;
+}
+
+
+.quality{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url("Rectangle11.jpg") no-repeat;
+}
+.wrapper{
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+  background: rgba(49, 49, 49, 0.6);
+}
+.quality__title{
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #FFFFFF;
+  padding-top:50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quality__icon{
+  margin:auto;
+  margin-top: 30px;
+  width: 66px;
+  height: 71px;
+  text-align: center;
+}
+.quality__text{
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.quality__numbers{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.quality__numbers-none{
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.quality__text-none{
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.partners{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url("Rectangle14.jpg") no-repeat;
+}
+.partners__wrapper{
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+  background: rgba(49, 49, 49, 0.7);
+}
+.logos{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.partners__logo-shoro{
+  width: 270px;
+  height: 110px;
+  background: url("Logo1.svg") no-repeat;
+  background-size: cover;
+
+}
+.partners__logo-cocacola{
+  width: 270px;
+  height: 230px;
+  background: url("Logo0.svg") no-repeat;
+  background-size: cover;
+}
+.partners__logo-artezian{
+  width: 340px;
+  height: 110px;
+  background: url("Logo2.svg") no-repeat;
+  background-size: cover;
+}
+
+footer{
+  width: 100%;
+  height: 400px;
+}
+.footer__title{
+  margin-top: 60px;
+  width: 320px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0380ED;
+  border-bottom:solid;
+  border-color: #000000;
+}
+.footer__content{
+  margin-top: 35px;
+}
+.footer__items{
+  margin-top: 15px;
+    list-style-type: none;
+    color: #000000;
+}
+#items-link{
+text-decoration: none;
+color: #000000;
+}
+.footer__button{
+  width: 320px;
+  height: 40px;
+  background:  #0380ED;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+@media (max-width: 1280px){
+  .logo{
+    width: 450px;
+    height: 150px;
+  }
+}
+@media (max-width: 992px){
+ .nav-contact{
+   display: none;
+ }
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-toggler {
+display: none;
+}
+}
+@media only screen and (max-width : 576px) {
+  .iconvector{
+    display: none;
+  }
+}
